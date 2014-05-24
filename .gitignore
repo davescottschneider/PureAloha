@@ -1,0 +1,10 @@
+Ignore all logfiles and tempfiles
+/log/*.log
+/tmp
+
+/bin
+css/.DS_Store
+img/.DS_Store
+inc/.DS_Store
+js/.DS_Store
+.DS_Store
