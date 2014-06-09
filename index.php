@@ -1,4 +1,4 @@
 <?php
 $pageTitle="Pure Aloha! A Hawaiian Paradise";
-$section="Home";
+$section="home";
  include('inc/header.php'); ?>
