@@ -1,0 +1,18 @@
+.navbar {
+  margin-top: 2.5em; }
+
+.nav {
+  float: right; }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: #146fa7 !important; }
+
+.nav > li > a:hover {
+  background-color: #ffcb05 !important;
+  color: #29315F !important; }
+
+header {
+  background-color: #29315F; }
+
+img, object {
+  max-width: 100%; }
