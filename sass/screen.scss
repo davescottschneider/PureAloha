@@ -19,15 +19,22 @@ html,body{
   width: 100%;
   margin: 0;
   padding: 0;
+  background:$darkblue;
 }
+
 header{
 	background:transparent;
 	position:absolute;
 	width:100%;
 	margin:0;
+	@include background-image(linear-gradient(#0374dc, transparent));
 }
 footer{
-	bottom:0;
+
+	width:100%;
+	position:absolute;
+	background: url('img/seafloor.png') no-repeat center top;
+	min-height:600px;
 }
 a{
 	color:#fff;

@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 tour = $('.tour');
 
-   $(window).on('scroll', function () {
+   $(window).scroll(function () {
 	   	tour.each(function(){
 		var scrollTop     = $(window).scrollTop();
 	    var elementOffset = $(this).offset().top;
