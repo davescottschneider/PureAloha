@@ -3,17 +3,19 @@ $pageTitle="Pure Aloha! A Hawaiian Paradise";
 $section="home";
 $pageDesc="The meta description for the Pure Aloha home page.";
  include('inc/header.php'); ?>
-	<div id="napaliCoast">
-		 <div class="clearfix">
-		 	<div id="welcome" class="homeblock">
-		 		<object data="img/headline.svg" type="image/svg+xml" class="headline col-md-4">
-					<!--[if lte IE 8 ]-->
-						<img src="img/Horizontal_Logo/Color_Logo/Transparent_Background_Files/Pure-Aloha-Ocean-Adventures_Final_72.png" alt="Pure Aloha Ocean Adventures">
-					<!--![endif]-->
-				</object>
-		 	</div>
-		 </div>
-	</div>
+	<div id="clouds"> 
+		<div id="napaliCoast">
+			 <div class="clearfix">
+			 	<div id="welcome" class="homeblock">
+			 		<object data="img/headline.svg" type="image/svg+xml" class="headline col-md-4">
+						<!--[if lte IE 8 ]-->
+							<img src="img/Horizontal_Logo/Color_Logo/Transparent_Background_Files/Pure-Aloha-Ocean-Adventures_Final_72.png" alt="Pure Aloha Ocean Adventures">
+						<!--![endif]-->
+					</object>
+			 	</div>
+			 </div>
+		</div>
+	</div>	
 	<div class="srcollFade">
 		 <div class="ocean">
 		 	<div class="container clearfix tour" id="whale">

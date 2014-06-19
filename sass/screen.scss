@@ -102,14 +102,18 @@ img, object{
 .scrollFade{
 
 }
+#clouds{
+	background-image: url(img/clouds2.png);
+	background-repeat: repeat-x;
+}
 #napaliCoast{
 	max-width:100%;
-	background: #01c4fd url('img/na-pali-coast-2000.png') no-repeat center bottom;
+	background: transparent url('img/na-pali-coast-2001.png') no-repeat center bottom;
 
 }
 #welcome{
 	h1{
-		margin:300px 0;
+		margin:325px 0;
 	}
 }
 .ocean{
