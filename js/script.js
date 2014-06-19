@@ -20,3 +20,25 @@ tour = $('.tour');
        });
     });
 });
+
+function StartMove() {
+var cssBGImage=new Image();
+cssBGImage.src="css/img/clouds2.png";
+
+window.cssMaxWidth=cssBGImage.width;
+window.cssXPos=0;
+setInterval("MoveBackGround()",70);
+}
+
+function MoveBackGround () {
+window.cssXPos=window.cssXPos+1;
+if (window.cssXPos>=window.cssMaxWidth) {
+window.cssXPos=0;
+}
+toMove=document.getElementById("clouds");
+toMove.style.backgroundPosition=window.cssXPos+"px 0px";
+}
+
+function pauseBG(){
+	window.cssXPos=window.cssXPos;
+}

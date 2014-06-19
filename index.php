@@ -6,6 +6,11 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 	<div id="clouds"> 
 		<div id="napaliCoast">
 			 <div class="clearfix">
+			 	<div class="right pausebg col-md-1">
+			 		<button type="button" class="btn btn-pause btn-sm" onclick="pauseBG()">
+			 			<span class="glyphicon glyphicon-pause"></span>
+			 		</button>
+			 	</div>
 			 	<div id="welcome" class="homeblock">
 			 		<object data="img/headline.svg" type="image/svg+xml" class="headline col-md-4">
 						<!--[if lte IE 8 ]-->

@@ -14,6 +14,7 @@ $lightblue:#146fa7;
 $eggshell:#fffcd5;
 $brown:#824E40;
 $gray:#E6E7E8;
+
 html,body{
   height: 100%;
   width: 100%;
@@ -127,5 +128,18 @@ img, object{
 	}
 	p{
 
+	}
+}
+.pausebg{
+	margin:3em -4.5em 0 0;
+}
+.btn-pause{
+	background:transparent;
+	:hover{
+		background:$darkblue;
+		opacity:0.5;
+	}
+	:active{
+		opacity:1;
 	}
 }
