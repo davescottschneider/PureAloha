@@ -31,7 +31,6 @@ header{
 	@include background-image(linear-gradient(#0374dc, transparent));
 }
 footer{
-
 	width:100%;
 	position:absolute;
 	background: url('img/seafloor.png') no-repeat center top;
@@ -100,9 +99,59 @@ img, object{
 	max-width:400px;
 	margin:0 2em;
 }
-.scrollFade{
+.homeblock{
+	.starthere{
+		position:absolute;
+		bottom:0;
+		right:2.5%;
+		background-color:$yellow;
+		width:110px;
+		height:80px;
+		text-align: center;
+		.glyphicon{
+			padding-top:20px;
+		    font-size:30px;
 
+		    -webkit-animation-direction: normal;
+		    -webkit-animation-duration: 1.2s;
+		    -webkit-animation-iteration-count: infinite;
+		    -webkit-animation-name: wiggle;
+		    -webkit-animation-timing-function: linear;
+
+			animation-direction: normal;
+		    animation-duration: 1.2s;
+		    animation-iteration-count: infinite;
+		    animation-name: wiggle;
+		    animation-timing-function: linear;
+		}
+	}
 }
+.movenav, .fixednav{
+	position:absolute;
+	top:100%;
+	width:110px;
+	text-align:center;
+	right:2.5%;
+	z-index:999;
+	.nav{
+		margin-right:0;
+		background-color: rgba(41,49,95,0.5);
+		ul{
+			margin:none;
+			padding:none;
+
+			li{
+				margin:none;
+				padding:none;
+			}
+		}
+	}
+}
+.fixednav{
+	position:fixed;
+	top:60px;
+}
+
 #clouds{
 	background-image: url(img/clouds2.png);
 	background-repeat: repeat-x;
@@ -131,7 +180,7 @@ img, object{
 	}
 }
 .pausebg{
-	margin:3em -4.5em 0 0;
+	margin:3em 0 0 0;
 }
 .btn-pause{
 	background:transparent;
@@ -141,5 +190,31 @@ img, object{
 	}
 	:active{
 		opacity:1;
+	}
+}
+@-webkit-keyframes wiggle{
+	0% {
+		padding-top: 20px;
+	}
+
+	50% {
+		padding-top: 28px;
+	}
+
+	100% {
+		padding-top: 20px;
+	}
+}
+@keyframes wiggle{
+	0% {
+		padding-top: 20px;
+	}
+
+	50% {
+		padding-top: 28px;
+	}
+
+	100% {
+		padding-top: 20px;
 	}
 }

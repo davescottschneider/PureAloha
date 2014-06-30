@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	<link href="css/screen.css" rel="stylesheet"/>
 </head>
-<body>
+<body data-spy="scroll" data-target=".fixednav">
 	<header>
 		<div>
 			<div class="clearfix">
@@ -24,17 +24,8 @@
 				</div>
 				<div class="navbar">
 					<ul class="nav nav-pills">
-						<li <?=echoActiveClassIfRequestMatches("index")?>><a href="index.php">Home</a></li>
+						<li <?=echoActiveClassIfRequestMatches("index")?>><a href="/">Home</a></li>
 						<li <?=echoActiveClassIfRequestMatches("about")?>><a href="about.php">About</a></li>
-						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#missing">Tours<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Whale Watching</a></li>
-								<li><a href="#">Na Pali Coast Tours</a></li>
-								<li><a href="#">Sunset Cruise</a></li>
-								<li><a href="#">Fishing Charters</a></li>
-								<li><a href="#">Snorkeling</a></li>
-							</ul>
-						</li>
 						<li <?=echoActiveClassIfRequestMatches("booking")?>><a href="booking.php">Booking</a></li>
 						<li <?=echoActiveClassIfRequestMatches("findus")?>><a href="findus.php">Find Us</a></li>
 					</ul>
