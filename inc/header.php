@@ -10,9 +10,12 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	<link href="css/screen.css" rel="stylesheet"/>
+	<!--[if IE]>
+ 	<link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ 	<![endif]-->
 </head>
-<body data-spy="scroll" data-target="#fixedmenu">
-	<header>
+<body data-spy="scroll" data-target="#fixedmenu" class="<?php echo $pageClass; ?>">
+	<header class="<?php echo $pageClass; ?>">
 		<div>
 			<div class="clearfix">
 				<div id="logo" class="col-md-4">

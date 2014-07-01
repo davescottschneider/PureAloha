@@ -1,0 +1,195 @@
+.homepage{
+	html &,body &{
+	  background:$darkblue;
+	}
+	header{
+		position:absolute;
+		background:transparent;
+		@include background-image(linear-gradient(#0374dc, transparent));
+	}
+	footer{
+		background: url('img/seafloor.png') no-repeat center top;
+		min-height:600px;
+	}
+}
+.tour{
+	padding:10% 0;
+	position: relative;
+	opacity:0;
+	margin-bottom:50px;
+	height:auto;
+	min-height:500px;
+}
+.homeblock{
+	.starthere{
+		position:absolute;
+		bottom:0;
+		right:2.5%;
+		background-color:$yellow;
+		width:110px;
+		height:80px;
+		text-align: center;
+		.glyphicon{
+			padding-top:20px;
+		    font-size:30px;
+
+		    -webkit-animation-direction: normal;
+		    -webkit-animation-duration: 1.2s;
+		    -webkit-animation-iteration-count: infinite;
+		    -webkit-animation-name: wiggle;
+		    -webkit-animation-timing-function: linear;
+
+			animation-direction: normal;
+		    animation-duration: 1.2s;
+		    animation-iteration-count: infinite;
+		    animation-name: wiggle;
+		    animation-timing-function: linear;
+		}
+	}
+}
+.movenav, .fixednav{
+	position:absolute;
+	top:100%;
+	width:110px;
+	text-align:center;
+	right:2.5%;
+	z-index:999;
+	.nav{
+		margin-right:0;
+		background-color: rgba(41,49,95,0.5);
+		ul{
+			margin:none;
+			padding:none;
+
+			li{
+				margin:none;
+				padding:none;
+			}
+		}
+	}
+	.active{
+	background-color:$yellow;
+	}
+}
+.fixednav{
+	position:fixed;
+	top:60px;
+}
+
+#clouds{
+	background-image: url(img/clouds2.png);
+	background-repeat: repeat-x;
+}
+#napaliCoast{
+	max-width:100%;
+	background: transparent url('img/na-pali-coast-2001.png') no-repeat center bottom;
+
+}
+#welcome{
+	h1{
+		margin:325px 0;
+	}
+}
+.ocean{
+	@include background-image(linear-gradient(#01C6FF, $darkblue));
+	h2{
+		width:100%;
+		text-align:center;
+		margin-bottom: .5em;
+		font-family: 'Olivier';
+		font-size:50px;
+	}
+	p{
+
+	}
+}
+.pausebg{
+	margin:3em 0 0 0;
+}
+.btn-pause{
+	background:transparent;
+	:hover{
+		background:$darkblue;
+		opacity:0.5;
+	}
+	:active{
+		opacity:1;
+	}
+}
+.btn{
+	margin: 0.75em;
+}
+.btn-primary{
+	background-color:$yellow;
+	border:$eggshell;
+	&:hover{
+		background-color:shade($yellow, 10%);
+	}
+	&:active{
+		background-color:shade($yellow, 20%);
+	}
+}
+.btn-success{
+	background-color:$lightblue;
+	border:$darkblue;
+	&:hover{
+		background-color:shade($lightblue, 10%);
+	}
+	&:active{
+		background-color:shade($lightblue, 20%);
+	}
+}
+.force-show {
+	display: block !important;
+}
+.bubble-container{
+
+}
+.bubble{
+  position:absolute;
+  border-radius:50%;
+  @include background-image(radial-gradient(45px 45px, white 10px, cyan 30px));
+  opacity:0.35;
+  z-index:0;
+}
+.bubble-sm{
+  width:20px;
+  height:20px;
+}
+.bubble-md{
+  width:30px;
+  height:30px;
+}
+.bubble-lg{
+  width:40px;
+  height:40px;
+}
+.force-show {
+	display: block !important;
+}
+@-webkit-keyframes wiggle{
+	0% {
+		padding-top: 20px;
+	}
+
+	50% {
+		padding-top: 28px;
+	}
+
+	100% {
+		padding-top: 20px;
+	}
+}
+@keyframes wiggle{
+	0% {
+		padding-top: 20px;
+	}
+
+	50% {
+		padding-top: 28px;
+	}
+
+	100% {
+		padding-top: 20px;
+	}
+}

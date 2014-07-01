@@ -1,5 +1,6 @@
 <?php
 $pageTitle="Pure Aloha! A Hawaiian Paradise";
+$pageClass="homepage";
 $section="home";
 $pageDesc="The meta description for the Pure Aloha home page.";
  include('inc/header.php'); ?>
@@ -116,4 +117,5 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 	  <span class="bubble bubble-md" id="bubble13"></span>
 	  <span class="bubble bubble-md" id="bubble14"></span>
 	</div>
- <?php include('inc/footer.php'); ?>
+<script src="js/parallax.js"></script>
+<?php include('inc/footer.php'); ?> 

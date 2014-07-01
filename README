@@ -1,23 +1,3 @@
 //*
-5/24/14 - Initial message from Dave
-
-Hello Adam, Shannon and anyone else involved on this project!
-
-First off, I want to say Thank You for letting me be a part of your company and family. If you are not familiar with Git, it is version control system for websites and apps. You can use this repository to see what updates I have made to the site's structure, layout and design.
-
-Here is a basic outline of the steps needed to take this project from a bunch of empty files and folders (where we are now), to the best damn travel booking website on the internet. (Where we will be no later than July 1st.)
-
-1. Create framework for the structure of the site
-2. Establish design goals for visual elements and UX
-3. Build out styled pages and content
-4. Add animation and visual effects
-5. Add advanced functionality i.e. Forms, booking, any custom apps that need to be built
-6. Wrap it up & launch!
-
-This is just a rough outline that can be changed and adapted as we need. I am always reachable by phone at (734)755-8132 or email (umdave@gmail.com).
-
-Aloha,
-Dave
-
-p.s. I can temporarily host the site on a dummy url so you can both review design changes as we move through the project. I'll set this up in the next few days once I get the php framework done.
+A website project for the Hawaiian tour company; Pure Aloha.
 *//

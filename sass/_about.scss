@@ -1,0 +1,27 @@
+.about{
+	background:#fff;
+		html &,body &{
+			background:#fff;
+		}
+		footer{
+		}
+		h1{
+			color:#fff;
+			position:relative;
+			font-family: 'Olivier';
+			font-size:50px;
+			padding:5em;
+			display:block;
+			float:right;
+
+		}
+		p{
+			color:$darkblue;
+		}
+}
+.marquee{
+	background:url('img/kauaicoast.jpg') no-repeat;
+	max-height:400px;
+	width:100%;
+	overflow:hidden;
+}
