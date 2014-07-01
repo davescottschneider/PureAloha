@@ -23,7 +23,7 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<div id="fixedmenu" class="navscrollspy movenav">
 							<ul class="nav nav-navbar">
-								<li><a href="#whale">Whale Watching</a></li>
+								<li class="active"><a href="#whale">Whale Watching</a></li>
 								<li><a href="#fishing">Fishing Charters</a></li>
 								<li><a href="#napali">Na Pali Coast</a></li>
 								<li><a href="#snorkeling">Snorkeling</a></li>
@@ -35,8 +35,8 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 			 </div>
 		</div>
 	</div>
-	<div class="srcollFade">
-		 <div class="ocean">
+	<section class="srcollFade" id="content">
+		 <section class="ocean">
 		 	<div class="container clearfix tour" id="whale">
 		 		<h2>Kauai Whale Watching Tours</h2>
 		 		<div class="col-md-7 left">
@@ -46,7 +46,8 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 		 		</div>
 		 		<div class="col-md-4">
 		 			<img src="img/snorkel.png" title="" alt=""/>
-		 			<img src="" title="" alt=""/>
+		 			<a href="#" class="btn btn-lg btn-success col-md-5">Learn More</a>
+		 			<a href="#" class="btn btn-lg btn-primary col-md-5">Book Now</a>
 		 		</div>
 		 	</div>
 		 	<div class="container clearfix tour" id="fishing">
@@ -97,6 +98,22 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 		 			<img src="" title="" alt=""/>
 		 		</div>
 		 	</div>
-	 	</div>
+	 	</section>
+	</section>
+	<div id="bubble-container">
+	  <span class="bubble bubble-sm" id="bubble-1"></span>
+	  <span class="bubble bubble-md" id="bubble-2"></span>
+	  <span class="bubble bubble-lg" id="bubble-3"></span>
+	  <span class="bubble bubble-md" id="bubble-4"></span>
+	  <span class="bubble bubble-md" id="bubble-5"></span>
+	  <span class="bubble bubble-sm" id="bubble-6"></span>
+	  <span class="bubble bubble-lg" id="bubble-7"></span>
+	  <span class="bubble bubble-md" id="bubble-8"></span>
+	  <span class="bubble bubble-sm" id="bubble-9"></span>
+	  <span class="bubble bubble-sm" id="bubble10"></span>
+	  <span class="bubble bubble-md" id="bubble11"></span>
+	  <span class="bubble bubble-lg" id="bubble12"></span>
+	  <span class="bubble bubble-md" id="bubble13"></span>
+	  <span class="bubble bubble-md" id="bubble14"></span>
 	</div>
  <?php include('inc/footer.php'); ?>

@@ -21,6 +21,7 @@ html,body{
   margin: 0;
   padding: 0;
   background:$darkblue;
+  position:relative;
 }
 
 header{
@@ -147,6 +148,9 @@ img, object{
 		}
 	}
 }
+.active{
+	background-color:$yellow;
+}
 .fixednav{
 	position:fixed;
 	top:60px;
@@ -167,6 +171,7 @@ img, object{
 	}
 }
 .ocean{
+	background: url('img/bggradient.png') repeat-x;
 	@include background-image(linear-gradient(#01C6FF, $darkblue));
 	h2{
 		width:100%;
@@ -191,6 +196,57 @@ img, object{
 	:active{
 		opacity:1;
 	}
+}
+.btn{
+	margin: 0.75em;
+}
+.btn-primary{
+	background-color:$yellow;
+	border:$eggshell;
+	&:hover{
+		background-color:shade($yellow, 10%);
+	}
+	&:active{
+		background-color:shade($yellow, 20%);
+	}
+}
+.btn-success{
+	background-color:$lightblue;
+	border:$darkblue;
+	&:hover{
+		background-color:shade($lightblue, 10%);
+	}
+	&:active{
+		background-color:shade($lightblue, 20%);
+	}
+}
+.force-show {
+	display: block !important;
+}
+.bubble-container{
+
+}
+.bubble{
+  position:absolute;
+  border-radius:50%;
+  @include background-image(radial-gradient(45px 45px, white 10px, cyan 30px));
+  opacity:0.35;
+  z-index:0;
+}
+.bubble-sm{
+  width:20px;
+  height:20px;
+}
+.bubble-md{
+  width:33px;
+  height:33px;
+}
+.bubble-lg{
+  width:40px;
+  height:40px;
+}
+.force-show {
+	display: block !important;
 }
 @-webkit-keyframes wiggle{
 	0% {

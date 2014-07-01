@@ -16,9 +16,10 @@ html, body {
   margin: 0;
   padding: 0;
   background: #29315f;
+  position: relative;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 header {
   background: transparent;
   position: absolute;
@@ -31,7 +32,7 @@ header {
   background-image: linear-gradient(#0374dc, transparent);
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 footer {
   width: 100%;
   position: absolute;
@@ -39,12 +40,12 @@ footer {
   min-height: 600px;
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 a {
   color: #fff;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 p {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -53,72 +54,72 @@ p {
   line-height: 1.5em;
 }
 
-/* line 49, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 h1 {
   color: #29315f;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 h2 {
   color: #29315f;
 }
 
-/* line 55, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 h3 {
   color: #29315f;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 img, object {
   max-width: 100%;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .left {
   float: left;
   display: block;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .right {
   float: right;
   display: block;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .navbar {
   margin: 2.5em 5em;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .nav {
   float: right;
   margin-right: 1em;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .nav-pills > li {
   color: #fff;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background-color: #146fa7 !important;
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .nav > li > a:hover {
   background-color: #ffcb05 !important;
   color: #29315f !important;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .headline {
   margin: 250px 5em 350px 10em;
   max-width: 600px;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .tour {
   padding: 10% 0;
   position: relative;
@@ -128,13 +129,13 @@ img, object {
   min-height: 500px;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 #logo {
   max-width: 400px;
   margin: 0 2em;
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .homeblock .starthere {
   position: absolute;
   bottom: 0;
@@ -144,7 +145,7 @@ img, object {
   height: 80px;
   text-align: center;
 }
-/* line 111, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 .homeblock .starthere .glyphicon {
   padding-top: 20px;
   font-size: 30px;
@@ -160,7 +161,7 @@ img, object {
   animation-timing-function: linear;
 }
 
-/* line 129, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .movenav, .fixednav {
   position: absolute;
   top: 100%;
@@ -169,54 +170,60 @@ img, object {
   right: 2.5%;
   z-index: 999;
 }
-/* line 136, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 .movenav .nav, .fixednav .nav {
   margin-right: 0;
   background-color: rgba(41, 49, 95, 0.5);
 }
-/* line 139, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .movenav .nav ul, .fixednav .nav ul {
   margin: none;
   padding: none;
 }
-/* line 143, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 .movenav .nav ul li, .fixednav .nav ul li {
   margin: none;
   padding: none;
 }
 
-/* line 150, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
+.active {
+  background-color: #ffcb05;
+}
+
+/* line 154, ../sass/screen.scss */
 .fixednav {
   position: fixed;
   top: 60px;
 }
 
-/* line 155, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 #clouds {
   background-image: url(img/clouds2.png);
   background-repeat: repeat-x;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 #napaliCoast {
   max-width: 100%;
   background: transparent url("img/na-pali-coast-2001.png") no-repeat center bottom;
 }
 
-/* line 165, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 #welcome h1 {
   margin: 325px 0;
 }
 
-/* line 169, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .ocean {
+  background: url("img/bggradient.png") repeat-x;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #01c6ff), color-stop(100%, #29315f));
   background-image: -webkit-linear-gradient(#01c6ff, #29315f);
   background-image: -moz-linear-gradient(#01c6ff, #29315f);
   background-image: -o-linear-gradient(#01c6ff, #29315f);
   background-image: linear-gradient(#01c6ff, #29315f);
 }
-/* line 171, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 .ocean h2 {
   width: 100%;
   text-align: center;
@@ -225,54 +232,128 @@ img, object {
   font-size: 50px;
 }
 
-/* line 182, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .pausebg {
   margin: 3em 0 0 0;
 }
 
-/* line 185, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .btn-pause {
   background: transparent;
 }
-/* line 187, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 .btn-pause :hover {
   background: #29315f;
   opacity: 0.5;
 }
-/* line 191, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .btn-pause :active {
   opacity: 1;
 }
 
+/* line 200, ../sass/screen.scss */
+.btn {
+  margin: 0.75em;
+}
+
+/* line 203, ../sass/screen.scss */
+.btn-primary {
+  background-color: #ffcb05;
+  border: #fffcd5;
+}
+/* line 206, ../sass/screen.scss */
+.btn-primary:hover {
+  background-color: #e5b604;
+}
+/* line 209, ../sass/screen.scss */
+.btn-primary:active {
+  background-color: #cca204;
+}
+
+/* line 213, ../sass/screen.scss */
+.btn-success {
+  background-color: #146fa7;
+  border: #29315f;
+}
+/* line 216, ../sass/screen.scss */
+.btn-success:hover {
+  background-color: #126396;
+}
+/* line 219, ../sass/screen.scss */
+.btn-success:active {
+  background-color: #105885;
+}
+
+/* line 223, ../sass/screen.scss */
+.force-show {
+  display: block !important;
+}
+
+/* line 229, ../sass/screen.scss */
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background-image: -webkit-gradient(radial, 45px 45px, 0, 45px 45px, 30, color-stop(33.33333%, #ffffff), color-stop(100%, #00ffff));
+  background-image: -webkit-radial-gradient(45px 45px, #ffffff 10px, #00ffff 30px);
+  background-image: -moz-radial-gradient(45px 45px, #ffffff 10px, #00ffff 30px);
+  background-image: -o-radial-gradient(45px 45px, #ffffff 10px, #00ffff 30px);
+  background-image: radial-gradient(45px 45px, #ffffff 10px, #00ffff 30px);
+  opacity: 0.35;
+  z-index: 0;
+}
+
+/* line 236, ../sass/screen.scss */
+.bubble-sm {
+  width: 20px;
+  height: 20px;
+}
+
+/* line 240, ../sass/screen.scss */
+.bubble-md {
+  width: 33px;
+  height: 33px;
+}
+
+/* line 244, ../sass/screen.scss */
+.bubble-lg {
+  width: 40px;
+  height: 40px;
+}
+
+/* line 248, ../sass/screen.scss */
+.force-show {
+  display: block !important;
+}
+
 @-webkit-keyframes wiggle {
-  /* line 196, ../sass/screen.scss */
+  /* line 252, ../sass/screen.scss */
   0% {
     padding-top: 20px;
   }
 
-  /* line 200, ../sass/screen.scss */
+  /* line 256, ../sass/screen.scss */
   50% {
     padding-top: 28px;
   }
 
-  /* line 204, ../sass/screen.scss */
+  /* line 260, ../sass/screen.scss */
   100% {
     padding-top: 20px;
   }
 }
 
 @keyframes wiggle {
-  /* line 209, ../sass/screen.scss */
+  /* line 265, ../sass/screen.scss */
   0% {
     padding-top: 20px;
   }
 
-  /* line 213, ../sass/screen.scss */
+  /* line 269, ../sass/screen.scss */
   50% {
     padding-top: 28px;
   }
 
-  /* line 217, ../sass/screen.scss */
+  /* line 273, ../sass/screen.scss */
   100% {
     padding-top: 20px;
   }

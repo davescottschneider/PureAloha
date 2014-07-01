@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	<link href="css/screen.css" rel="stylesheet"/>
 </head>
-<body data-spy="scroll" data-target=".fixednav">
+<body data-spy="scroll" data-target="#fixedmenu">
 	<header>
 		<div>
 			<div class="clearfix">
