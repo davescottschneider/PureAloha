@@ -1,7 +1,7 @@
 .about{
-	background:#fff;
+	background:$darkblue;
 		html &,body &{
-			background:#fff;
+			background:$lightblue;
 		}
 		footer{
 		}
@@ -24,4 +24,14 @@
 	max-height:400px;
 	width:100%;
 	overflow:hidden;
+}
+.whitebg{
+	background:#fff;
+	width:100%;
+}
+footer{
+		background:$darkblue;
+}
+.aboutcontent{
+	padding-bottom:50px;
 }

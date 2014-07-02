@@ -22,6 +22,16 @@ header{
 footer{
 	width:100%;
 	position:absolute;
+  	background:#29315F;
+	width:100%;
+	min-height:300px;
+	color:#fff;
+	dl{
+		list-style:none;
+	    width:50%;
+	    display:block;
+	    float:left;
+	}
 }
 a{
 	color:#fff;
@@ -79,6 +89,13 @@ img, object{
 	margin:0 2em;
 	position:absolute;
 }
+.identity{
+  font-size:16px;
+}
+.well{
+  background-color:rgba(255,255,255,0.1);
+  border:none;
+}
 header.regpage{
 	background:$darkblue;
 		margin-bottom:20px;
@@ -97,4 +114,29 @@ header.regpage{
 				-o-transform: skew(0deg, -3deg);
 				transform: skew(0deg, -3deg);
 			}
+}
+footer.regpage{
+	height:300px;
+
+	&:before{
+		content: '';
+		position:absolute;
+		bottom: 0;
+		right: 0;
+		height:335px;
+		overflow: hidden;
+		width:100%;
+		background:$lightblue;
+		-webkit-transform: skew(0deg, -3deg);
+		-moz-transform: skew(0deg, -3deg);
+		-ms-transform: skew(0deg, -3deg);
+		-o-transform: skew(0deg, -3deg);
+		transform: skew(0deg, -3deg);
+	}
+	&:after{
+	}
+
+}
+.row{
+	padding-top:60px;
 }

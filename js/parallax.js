@@ -63,7 +63,7 @@ window.requestAnimFrame = (function(){
     bubble3.style.left = 90 + '%';
 
     bubble4.style.top = pos(2400, -3900, relativeY, 0) + 'px';
-    bubble4.style.left = 85 + '%';
+    bubble4.style.left = 75 + '%';
 
     bubble5.style.top = pos(2730, -2900, relativeY, 0) + 'px';
     bubble5.style.left = 10 + '%';
@@ -72,13 +72,13 @@ window.requestAnimFrame = (function(){
     bubble6.style.left = 95 + '%';
 
     bubble7.style.top = pos(6050, -1900, relativeY, 0) + 'px';
-    bubble7.style.left = 20 + '%';
+    bubble7.style.left = 45 + '%';
 
     bubble8.style.top = pos(4300, -700, relativeY, 0) + 'px';
     bubble8.style.left = 80 + '%';
 
     bubble9.style.top = pos(4700, -6000, relativeY, 0) + 'px';
-    bubble9.style.left = 92 + '%';
+    bubble9.style.left = 65 + '%';
 
     bubble10.style.top = pos(5530, -2400, relativeY, 0) + 'px';
     bubble10.style.left = 7 + '%';
@@ -89,8 +89,8 @@ window.requestAnimFrame = (function(){
     bubble12.style.top = pos(6550, -9000, relativeY, 0) + 'px';
     bubble12.style.left = 83 + '%';
 
-    bubble13.style.top = pos(6400, -1100, relativeY, 0) + 'px';
-    bubble13.style.left = 21 + '%';
+    bubble13.style.top = pos(6400, -2100, relativeY, 0) + 'px';
+    bubble13.style.left = 35 + '%';
 
     bubble14.style.top = pos(5200, -5000, relativeY, 0) + 'px';
     bubble14.style.left = 87 + '%';

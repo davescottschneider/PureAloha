@@ -263,11 +263,11 @@ html .homepage, body .homepage {
 
 /* line 1, ../sass/_about.scss */
 .about {
-  background: #fff;
+  background: #29315f;
 }
 /* line 3, ../sass/_about.scss */
 html .about, body .about {
-  background: #fff;
+  background: #146fa7;
 }
 /* line 8, ../sass/_about.scss */
 .about h1 {
@@ -292,6 +292,22 @@ html .about, body .about {
   overflow: hidden;
 }
 
+/* line 28, ../sass/_about.scss */
+.whitebg {
+  background: #fff;
+  width: 100%;
+}
+
+/* line 32, ../sass/_about.scss */
+footer {
+  background: #29315f;
+}
+
+/* line 35, ../sass/_about.scss */
+.aboutcontent {
+  padding-bottom: 50px;
+}
+
 /* line 10, ../sass/screen.scss */
 html, body {
   height: 100%;
@@ -311,14 +327,25 @@ header {
 footer {
   width: 100%;
   position: absolute;
+  background: #29315F;
+  width: 100%;
+  min-height: 300px;
+  color: #fff;
+}
+/* line 29, ../sass/screen.scss */
+footer dl {
+  list-style: none;
+  width: 50%;
+  display: block;
+  float: left;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 a {
   color: #fff;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 p {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -327,85 +354,96 @@ p {
   line-height: 1.5em;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 h1 {
   color: #29315f;
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 h2 {
   color: #29315f;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 h3 {
   color: #29315f;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 img, object {
   max-width: 100%;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .left {
   float: left;
   display: block;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .right {
   float: right;
   display: block;
 }
 
-/* line 56, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .navbar {
   margin: 2.5em 5em;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .nav {
   float: right;
   margin-right: 1em;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .nav-pills > li {
   color: #fff;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background-color: #146fa7 !important;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .nav > li > a:hover {
   background-color: #ffcb05 !important;
   color: #29315f !important;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .headline {
   margin: 250px 5em 350px 10em;
   max-width: 600px;
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 #logo {
   max-width: 400px;
   margin: 0 2em;
   position: absolute;
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
+.identity {
+  font-size: 16px;
+}
+
+/* line 95, ../sass/screen.scss */
+.well {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+
+/* line 99, ../sass/screen.scss */
 header.regpage {
   background: #29315f;
   margin-bottom: 20px;
   height: 5em;
 }
-/* line 86, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 header.regpage:before {
   content: '';
   position: absolute;
@@ -419,4 +457,30 @@ header.regpage:before {
   -ms-transform: skew(0deg, -3deg);
   -o-transform: skew(0deg, -3deg);
   transform: skew(0deg, -3deg);
+}
+
+/* line 118, ../sass/screen.scss */
+footer.regpage {
+  height: 300px;
+}
+/* line 121, ../sass/screen.scss */
+footer.regpage:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 335px;
+  overflow: hidden;
+  width: 100%;
+  background: #146fa7;
+  -webkit-transform: skew(0deg, -3deg);
+  -moz-transform: skew(0deg, -3deg);
+  -ms-transform: skew(0deg, -3deg);
+  -o-transform: skew(0deg, -3deg);
+  transform: skew(0deg, -3deg);
+}
+
+/* line 140, ../sass/screen.scss */
+.row {
+  padding-top: 60px;
 }
