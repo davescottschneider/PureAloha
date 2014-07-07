@@ -18,20 +18,28 @@
 	<header class="<?php echo $pageClass; ?>">
 		<div>
 			<div class="clearfix">
-				<div id="logo" class="col-md-4">
-				<object data="img/pureAlohaLogo.svg" type="image/svg+xml" class="logo">
-					<!--[if lte IE 8 ]-->
-						<img src="img/Horizontal_Logo/Color_Logo/Transparent_Background_Files/Pure-Aloha-Ocean-Adventures_Final_72.png" alt="Pure Aloha Ocean Adventures">
-					<!--![endif]-->
-				</object>
+				<div class="navbar" role="navigation">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+					</button>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav nav-pills">
+							<li <?=echoActiveClassIfRequestMatches("index")?>><a href="/">Home</a></li>
+							<li <?=echoActiveClassIfRequestMatches("about")?>><a href="about.php">About</a></li>
+							<li <?=echoActiveClassIfRequestMatches("booking")?>><a href="booking.php">Booking</a></li>
+							<li <?=echoActiveClassIfRequestMatches("findus")?>><a href="findus.php">Find Us</a></li>
+						</ul>
+					</div>
 				</div>
-				<div class="navbar">
-					<ul class="nav nav-pills">
-						<li <?=echoActiveClassIfRequestMatches("index")?>><a href="/">Home</a></li>
-						<li <?=echoActiveClassIfRequestMatches("about")?>><a href="about.php">About</a></li>
-						<li <?=echoActiveClassIfRequestMatches("booking")?>><a href="booking.php">Booking</a></li>
-						<li <?=echoActiveClassIfRequestMatches("findus")?>><a href="findus.php">Find Us</a></li>
-					</ul>
+				<div id="logo">
+					<object data="img/pureAlohaLogo.svg" type="image/svg+xml" class="logo">
+						<!--[if lte IE 8 ]-->
+							<img src="img/Horizontal_Logo/Color_Logo/Transparent_Background_Files/Pure-Aloha-Ocean-Adventures_Final_72.png" alt="Pure Aloha Ocean Adventures">
+						<!--![endif]-->
+					</object>
 				</div>
 			</div>
 		</div>

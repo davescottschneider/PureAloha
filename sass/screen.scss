@@ -2,6 +2,9 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+$break-small: 401px;
+$break-large: 991px;
+
 @import "compass";
 @import "colors";
 @import "index";
@@ -33,8 +36,10 @@ footer{
 	    float:left;
 	}
 }
-a{
+ul{
+	a{
 	color:#fff;
+	}
 }
 p{
 	color:#fff;
@@ -64,11 +69,25 @@ img, object{
 	display:block;
 }
 .navbar{
+	float:right;
 	margin:2.5em 5em;
+	.navbar-toggle{
+		border:1px solid #fff;
+		.icon-bar{
+			color:#fff;
+			border:inherit;
+		}
+	}
+	.navbar-collapse{
+		width:100%;
+		position:relative;
+	}
+	@media screen and (max-width: 872px){
+		margin:2.5em 1em 2.5em 0;
+	}
 }
 .nav{
 	float:right;
-	margin-right:1em;
 }
 .nav-pills > li{
 	color:#fff;
@@ -81,13 +100,28 @@ img, object{
 	color:$darkblue !important;
 }
 .headline{
-	margin:250px 5em 350px 10em;
-	max-width:600px;
+	margin:12em 0 16em 0;
+	padding:5em 12em;
+	width:65%;
+	max-width:100%;
+	@media screen and (max-width: $break-large) {
+		padding:5em;
+		width:75%;
+	}
+	@media screen and (max-width: $break-small) {
+		padding:5em 1em;
+		width:100%;
+	}
 }
 #logo{
+	float:left;
+	display:block;
+	width:400px;
 	max-width:400px;
-	margin:0 2em;
-	position:absolute;
+	@media screen and (max-width: 767px){
+		max-width:75%;
+		padding:0;
+	}
 }
 .identity{
   font-size:16px;
@@ -98,45 +132,24 @@ img, object{
 }
 header.regpage{
 	background:$darkblue;
-		margin-bottom:20px;
-		height:5em;
-			&:before{
-				content: '';
-				position:absolute;
-				top: 0;
-				right: 0;
-				height:9em;
-				width:100%;
-				background:$darkblue;
-				-webkit-transform: skew(0deg, -3deg);
-				-moz-transform: skew(0deg, -3deg);
-				-ms-transform: skew(0deg, -3deg);
-				-o-transform: skew(0deg, -3deg);
-				transform: skew(0deg, -3deg);
-			}
+	margin-bottom:20px;
+	height:5em;
+		&:before{
+			content: '';
+			position:absolute;
+			top: 0;
+			right: 0;
+			height:9em;
+			width:100%;
+			background:$darkblue;
+			-webkit-transform: skew(0deg, -3deg);
+			-moz-transform: skew(0deg, -3deg);
+			-ms-transform: skew(0deg, -3deg);
+			-o-transform: skew(0deg, -3deg);
+			transform: skew(0deg, -3deg);
+		}
 }
-footer.regpage{
-	height:300px;
 
-	&:before{
-		content: '';
-		position:absolute;
-		bottom: 0;
-		right: 0;
-		height:335px;
-		overflow: hidden;
-		width:100%;
-		background:$lightblue;
-		-webkit-transform: skew(0deg, -3deg);
-		-moz-transform: skew(0deg, -3deg);
-		-ms-transform: skew(0deg, -3deg);
-		-o-transform: skew(0deg, -3deg);
-		transform: skew(0deg, -3deg);
-	}
-	&:after{
-	}
-
-}
 .row{
 	padding-top:60px;
 }

@@ -33,7 +33,6 @@ function applyClickEvent()
 		return false;
 	});
 }
-
 function applyNavigationFixForPhone()
 {
 	$('.navbar li a').click(function(event) 
@@ -41,6 +40,7 @@ function applyNavigationFixForPhone()
 		$('.navbar-collapse').removeClass('in').addClass('collapse');
 	});
 }
+
 
 function applyScrollSpy()
 {

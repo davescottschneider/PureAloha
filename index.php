@@ -8,7 +8,7 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 		<div id="napaliCoast">
 			 <div class="clearfix">
 			 	<div id="welcome" class="homeblock">
-			 		<object data="img/headline.svg" type="image/svg+xml" class="headline col-md-4">
+			 		<object data="img/headline.svg" type="image/svg+xml" class="headline">
 						<!--[if lte IE 8 ]-->
 							<img src="img/Horizontal_Logo/Color_Logo/Transparent_Background_Files/Pure-Aloha-Ocean-Adventures_Final_72.png" alt="Pure Aloha Ocean Adventures">
 						<!--![endif]-->
@@ -53,7 +53,7 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 		 			<h3>Cast Your Pole and Wait For The Tug</h3>
 		 			<p>When you feel a tug on your line the action can quickly become hectic; the last thing you need is an inexperienced crew. Pure Aloha has an experienced, professional and exciting crew that will do whatever it takes to help you land your trophy catch. Our guys were born and raised fishing on the island and will provide an experience that is unparalleled to any charter around.</p>
 		 		</div>
-		 		<div class="col-md-4 left">
+		 		<div class="col-md-4">
 		 			<img src="img/snorkel.png" title="" alt=""/>
 		 			<img src="" title="" alt=""/>
 		 		</div>
@@ -77,7 +77,7 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 		 			<h3>A Day of Sun and Sea Life</h3>
 		 			<p>We take our guests on an excursion to secluded coves only accessible by boat and provide a rare opportunity to see a hidden side of Kauai. Whether you are a veteran snorkeler or this will be your first time out, we have the perfect experience for you. Or crew was raised in these waters and knows the very best places to explore the wonders of the sea.</p>
 		 		</div>
-		 		<div class="col-md-5">
+		 		<div class="col-md-4">
 		 			<img src="img/snorkel.png" title="" alt=""/>
 		 			<img src="" title="" alt=""/>
 		 		</div>
