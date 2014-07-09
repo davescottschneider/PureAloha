@@ -16,7 +16,7 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 					<a class="starthere" href="#whale">
 							<span class="glyphicon glyphicon-chevron-down"></span>
 					</a>
-					<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<div>
 						<div id="fixedmenu" class="navscrollspy movenav">
 							<ul class="nav nav-navbar">
 								<li class="active"><a href="#whale">Whale Watching</a></li>

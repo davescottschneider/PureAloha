@@ -2,8 +2,9 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-$break-small: 401px;
-$break-large: 991px;
+$break-sml: 401px;
+$break-med: 767px;
+$break-lrg: 991px;
 
 @import "compass";
 @import "colors";
@@ -69,25 +70,65 @@ img, object{
 	display:block;
 }
 .navbar{
+	width:100%;
 	float:right;
-	margin:2.5em 5em;
 	.navbar-toggle{
 		border:1px solid #fff;
+		margin:3em 2em 0 0;
+		@media screen and (max-width: $break-med) {
+			float:right;
+		}
 		.icon-bar{
 			color:#fff;
 			border:inherit;
 		}
 	}
 	.navbar-collapse{
+		border:0;
+		width:40%;
+		float:right;
+		margin:2.5em 5em 0 0;
+		@media screen and (max-width: $break-med) {
+			width:100%;
+			margin:0;
+		}
+		.nav-pills{
+			li{
+				float:left;
+			}
+		}
+	}
+	.in{
 		width:100%;
-		position:relative;
+	}
+	.navbar-nav{
+
 	}
 	@media screen and (max-width: 872px){
 		margin:2.5em 1em 2.5em 0;
 	}
+	@media screen and (max-width: $break-med) {
+
+		margin:0;
+		border:0;
+		li{
+			float:left;
+		}
+	}
 }
 .nav{
 	float:right;
+	@media screen and (max-width: $break-med) {
+		width:90%;
+		margin:0.25em auto;
+	}
+	li{
+			@media screen and (max-width: $break-med) {
+			width:90%;
+			text-align:center;
+			float:left;
+		}
+	}
 }
 .nav-pills > li{
 	color:#fff;
@@ -99,23 +140,29 @@ img, object{
 	background-color:$yellow !important;
 	color:$darkblue !important;
 }
+.navbar-toggle{
+	margin:3em 2em 0 0;
+	float:right;
+		@media screen and (max-width: $break-med) {
+			float:right;
+			position:relative;
+		}
+}
 .headline{
 	margin:12em 0 16em 0;
 	padding:5em 12em;
 	width:65%;
 	max-width:100%;
-	@media screen and (max-width: $break-large) {
+	@media screen and (max-width: $break-lrg) {
 		padding:5em;
 		width:75%;
 	}
-	@media screen and (max-width: $break-small) {
+	@media screen and (max-width: $break-sml) {
 		padding:5em 1em;
 		width:100%;
 	}
 }
 #logo{
-	float:left;
-	display:block;
 	width:400px;
 	max-width:400px;
 	@media screen and (max-width: 767px){
