@@ -40,12 +40,16 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 			 			<h3>A Top Whale Watching Destination</h3>
 			 			<p>Highlight your Kauai vacation with a majestic whale watching tour. Hawaii consistently place among the top rated destinations for whale watching. Veteran whale watchers agree that our whale watching tours rank among the finest in terms of our boat, crew, value and experience. Make sure you bring your camera on this unforgettable journey.</p>
 			 		</div>
-			 		<div class="col-md-5">
+			 		<div class="col-md-5 right">
 			 			<img src="img/whale.jpg" title="Humback Whale Breaching" alt="Whale watching in Kauai, humback whale breaching"/>
 			 		</div>
 			 		<div class="buttons col-md-5">
-			 			<a href="#" class="btn btn-lg btn-success col-md-5">Learn More</a>
-			 			<a href="#" class="btn btn-lg btn-primary col-md-5">Book Now</a>
+			 			<div class="button">
+			 				<a href="#" class="btn btn-lg btn-success btn-block">Learn More</a>
+			 			</div>
+			 			<div class="button">
+			 				<a href="#" class="btn btn-lg btn-primary btn-block">Book Now</a>
+			 			</div>
 			 		</div>
 			 	</div>
 			 	<div class="container clearfix tour" id="fishing">
@@ -55,9 +59,17 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 			 			<h3>Cast Your Pole and Wait For The Tug</h3>
 			 			<p>When you feel a tug on your line the action can quickly become hectic; the last thing you need is an inexperienced crew. Pure Aloha has an experienced, professional and exciting crew that will do whatever it takes to help you land your trophy catch. Our guys were born and raised fishing on the island and will provide an experience that is unparalleled to any charter around.</p>
 			 		</div>
-			 		<div class="col-md-4">
-			 			<img src="img/snorkel.png" title="" alt=""/>
+			 		<div class="col-md-5">
+			 			<img src="img/fishing.jpg" title="" alt=""/>
 			 			<img src="" title="" alt=""/>
+			 		</div>
+			 		<div class="buttons col-md-5">
+			 			<div class="button">
+			 				<a href="#" class="btn btn-lg btn-success btn-block">Learn More</a>
+			 			</div>
+			 			<div class="button">
+			 				<a href="#" class="btn btn-lg btn-primary btn-block">Book Now</a>
+			 			</div>
 			 		</div>
 			 	</div>
 			 	<div class="container clearfix tour" id="napali">
@@ -67,9 +79,17 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 			 			<h3>Unspoiled Coastline</h3>
 			 			<p>Enjoy the view of the cliffs as they drop straight down thousands of feet to the coastline. The Na Pali Coast is filled with waterfalls and secret coves we can’t wait to explore with you. Join us on a journey that is unparalleled to any other experience.</p>
 			 		</div>
-			 		<div class="col-md-4">
-			 			<img src="img/snorkel.png" title="" alt=""/>
+			 		<div class="col-md-5">
+			 			<img src="img/boat.jpg" title="" alt=""/>
 			 			<img src="" title="" alt=""/>
+			 		</div>
+			 		<div class="buttons col-md-5">
+			 			<div class="button">
+			 				<a href="#" class="btn btn-lg btn-success btn-block">Learn More</a>
+			 			</div>
+			 			<div class="button">
+			 				<a href="#" class="btn btn-lg btn-primary btn-block">Book Now</a>
+			 			</div>
 			 		</div>
 			 	</div>
 			 	<div class="container clearfix tour" id="snorkeling">
@@ -79,9 +99,17 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 			 			<h3>A Day of Sun and Sea Life</h3>
 			 			<p>We take our guests on an excursion to secluded coves only accessible by boat and provide a rare opportunity to see a hidden side of Kauai. Whether you are a veteran snorkeler or this will be your first time out, we have the perfect experience for you. Or crew was raised in these waters and knows the very best places to explore the wonders of the sea.</p>
 			 		</div>
-			 		<div class="col-md-4">
+			 		<div class="col-md-5">
 			 			<img src="img/snorkel.png" title="" alt=""/>
 			 			<img src="" title="" alt=""/>
+			 		</div>
+			 		<div class="buttons col-md-5">
+			 			<div class="button">
+			 				<a href="#" class="btn btn-lg btn-success btn-block">Learn More</a>
+			 			</div>
+			 			<div class="button">
+			 				<a href="#" class="btn btn-lg btn-primary btn-block">Book Now</a>
+			 			</div>
 			 		</div>
 			 	</div>
 			 	<div class="container clearfix tour" id="sunset">
@@ -91,9 +119,17 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 			 			<h3>Experience Paradise</h3>
 			 			<p>When you join us for a cruise into the tropical waters of Kauai with a warm ocean breeze and a magnificent sunset as a backdrop, your vacation will be complete. Experience a sunset sail with Pure Aloha and you will fully understand what island paradise is all about. Our sunset cruises are extremely popular, so book early.</p>
 			 		</div>
-			 		<div class="col-md-4">
+			 		<div class="col-md-5">
 			 			<img src="img/snorkel.png" title="" alt=""/>
 			 			<img src="" title="" alt=""/>
+			 		</div>
+			 		<div class="buttons col-md-5">
+			 			<div class="button">
+			 				<a href="#" class="btn btn-lg btn-success btn-block">Learn More</a>
+			 			</div>
+			 			<div class="button">
+			 				<a href="#" class="btn btn-lg btn-primary btn-block">Book Now</a>
+			 			</div>
 			 		</div>
 			 	</div>
 

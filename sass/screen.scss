@@ -136,8 +136,10 @@ img, object{
 	}
 }
 .nav-pills > li{
-	font-size:18px;
-	padding-bottom:0.25em;
+	@media screen and (max-width:$break-med) {
+		font-size:18px;
+		padding-bottom:0.25em;
+	}
 	color:#fff;
 }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
