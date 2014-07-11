@@ -25,7 +25,7 @@ html .homepage, body .homepage {
 }
 /* line 10, ../sass/_index.scss */
 .homepage footer {
-  background: url("img/seafloor.png") no-repeat center top;
+  background: url("img/seafloor.png") no-repeat center bottom;
   min-height: 600px;
 }
 
@@ -521,34 +521,36 @@ img, object {
 
 /* line 138, ../sass/screen.scss */
 .nav-pills > li {
+  font-size: 18px;
+  padding-bottom: 0.25em;
   color: #fff;
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background-color: #146fa7 !important;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 .nav > li > a:hover {
   background-color: #ffcb05 !important;
   color: #29315f !important;
 }
 
-/* line 148, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 .navbar-toggle {
   margin: 3em 2em 0 0;
   float: right;
 }
 @media screen and (max-width: 767px) {
-  /* line 148, ../sass/screen.scss */
+  /* line 150, ../sass/screen.scss */
   .navbar-toggle {
     float: right;
     position: relative;
   }
 }
 
-/* line 156, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .headline {
   margin: 12em 0 16em 0;
   padding: 5em 12em;
@@ -556,51 +558,51 @@ img, object {
   max-width: 100%;
 }
 @media screen and (max-width: 991px) {
-  /* line 156, ../sass/screen.scss */
+  /* line 158, ../sass/screen.scss */
   .headline {
     padding: 5em;
     width: 75%;
   }
 }
 @media screen and (max-width: 401px) {
-  /* line 156, ../sass/screen.scss */
+  /* line 158, ../sass/screen.scss */
   .headline {
     padding: 5em 1em;
     width: 100%;
   }
 }
 
-/* line 170, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 #logo {
   width: 400px;
   max-width: 400px;
 }
 @media screen and (max-width: 767px) {
-  /* line 170, ../sass/screen.scss */
+  /* line 172, ../sass/screen.scss */
   #logo {
     max-width: 75%;
     padding: 0;
   }
 }
 
-/* line 178, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .identity {
   font-size: 16px;
 }
 
-/* line 181, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .well {
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
 }
 
-/* line 185, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 header.regpage {
   background: #29315f;
   margin-bottom: 20px;
   height: 5em;
 }
-/* line 189, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 header.regpage:before {
   content: '';
   position: absolute;
@@ -616,7 +618,7 @@ header.regpage:before {
   transform: skew(0deg, -3deg);
 }
 
-/* line 205, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .row {
   padding-top: 60px;
 }

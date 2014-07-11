@@ -33,7 +33,6 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 	</div>
 	<section class="srcollFade" id="content">
 		 <section class="ocean">
-		 	<div class="content">
 			 	<div class="container clearfix tour" id="whale">
 			 		<h2>Kauai Whale Watching Tours</h2>
 			 		<div class="col-md-7 left">
@@ -42,7 +41,9 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 			 			<p>Highlight your Kauai vacation with a majestic whale watching tour. Hawaii consistently place among the top rated destinations for whale watching. Veteran whale watchers agree that our whale watching tours rank among the finest in terms of our boat, crew, value and experience. Make sure you bring your camera on this unforgettable journey.</p>
 			 		</div>
 			 		<div class="col-md-5">
-			 			<img src="img/snorkel.png" title="" alt=""/>
+			 			<img src="img/whale.jpg" title="Humback Whale Breaching" alt="Whale watching in Kauai, humback whale breaching"/>
+			 		</div>
+			 		<div class="buttons col-md-5">
 			 			<a href="#" class="btn btn-lg btn-success col-md-5">Learn More</a>
 			 			<a href="#" class="btn btn-lg btn-primary col-md-5">Book Now</a>
 			 		</div>
@@ -95,7 +96,7 @@ $pageDesc="The meta description for the Pure Aloha home page.";
 			 			<img src="" title="" alt=""/>
 			 		</div>
 			 	</div>
-			 </div>
+
 	 	</section>
 	</section>
 	<div id="bubble-container">
