@@ -28,8 +28,9 @@ footer{
 	position:absolute;
   	background:#29315F;
 	width:100%;
-	min-height:300px;
+	min-height:400px;
 	color:#fff;
+
 	dl{
 		list-style:none;
 	    width:50%;
@@ -88,6 +89,10 @@ img, object{
 		width:40%;
 		float:right;
 		margin:2.5em 5em 0 0;
+		@media screen and (max-width: $break-lrg) {
+			margin-right:0;
+			width:45%;
+		}
 		@media screen and (max-width: $break-med) {
 			width:100%;
 			margin:0;
