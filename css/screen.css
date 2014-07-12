@@ -204,6 +204,11 @@ html .homepage, body .homepage {
 }
 
 /* line 144, ../sass/_index.scss */
+.buttons {
+  float: left;
+}
+
+/* line 147, ../sass/_index.scss */
 .button {
   width: 47%;
   padding-right: 5%;
@@ -211,40 +216,40 @@ html .homepage, body .homepage {
   float: left;
 }
 
-/* line 150, ../sass/_index.scss */
+/* line 153, ../sass/_index.scss */
 .btn-primary {
   background-color: #ffcb05;
   border: #fffcd5;
 }
-/* line 153, ../sass/_index.scss */
+/* line 156, ../sass/_index.scss */
 .btn-primary:hover {
   background-color: #e5b604;
 }
-/* line 156, ../sass/_index.scss */
+/* line 159, ../sass/_index.scss */
 .btn-primary:active {
   background-color: #cca204;
 }
 
-/* line 160, ../sass/_index.scss */
+/* line 163, ../sass/_index.scss */
 .btn-success {
   background-color: #146fa7;
   border: #29315f;
 }
-/* line 163, ../sass/_index.scss */
+/* line 166, ../sass/_index.scss */
 .btn-success:hover {
   background-color: #126396;
 }
-/* line 166, ../sass/_index.scss */
+/* line 169, ../sass/_index.scss */
 .btn-success:active {
   background-color: #105885;
 }
 
-/* line 170, ../sass/_index.scss */
+/* line 173, ../sass/_index.scss */
 .force-show {
   display: block !important;
 }
 
-/* line 176, ../sass/_index.scss */
+/* line 179, ../sass/_index.scss */
 .bubble {
   position: absolute;
   border-radius: 50%;
@@ -257,58 +262,58 @@ html .homepage, body .homepage {
   z-index: 0;
 }
 
-/* line 183, ../sass/_index.scss */
+/* line 186, ../sass/_index.scss */
 .bubble-sm {
   width: 20px;
   height: 20px;
 }
 
-/* line 187, ../sass/_index.scss */
+/* line 190, ../sass/_index.scss */
 .bubble-md {
   width: 30px;
   height: 30px;
 }
 
-/* line 191, ../sass/_index.scss */
+/* line 194, ../sass/_index.scss */
 .bubble-lg {
   width: 40px;
   height: 40px;
 }
 
-/* line 195, ../sass/_index.scss */
+/* line 198, ../sass/_index.scss */
 .force-show {
   display: block !important;
 }
 
 @-webkit-keyframes wiggle {
-  /* line 199, ../sass/_index.scss */
+  /* line 202, ../sass/_index.scss */
   0% {
     padding-top: 20px;
   }
 
-  /* line 203, ../sass/_index.scss */
+  /* line 206, ../sass/_index.scss */
   50% {
     padding-top: 28px;
   }
 
-  /* line 207, ../sass/_index.scss */
+  /* line 210, ../sass/_index.scss */
   100% {
     padding-top: 20px;
   }
 }
 
 @keyframes wiggle {
-  /* line 212, ../sass/_index.scss */
+  /* line 215, ../sass/_index.scss */
   0% {
     padding-top: 20px;
   }
 
-  /* line 216, ../sass/_index.scss */
+  /* line 219, ../sass/_index.scss */
   50% {
     padding-top: 28px;
   }
 
-  /* line 220, ../sass/_index.scss */
+  /* line 223, ../sass/_index.scss */
   100% {
     padding-top: 20px;
   }
