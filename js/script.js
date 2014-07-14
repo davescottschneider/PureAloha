@@ -4,7 +4,6 @@
 $(document).ready(function(){
 
 	applyNavigation();
-	   
 });
 
 /* NAVIGATION FUNCTIONS */
@@ -94,6 +93,7 @@ $(window).scroll(function () {
    });
 });
 
+$(".input-group.date").datepicker({ autoclose: true, todayHighlight: true });
 
 function StartMove() {
 var cssBGImage=new Image();

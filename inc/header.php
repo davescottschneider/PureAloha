@@ -9,7 +9,8 @@
 	<?php include('inc/functions.php'); ?>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-	<link href="css/screen.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/datepicker.css"/>
+	<link rel="stylesheet" href="css/screen.css"/>
 	<!--[if IE]>
  	<link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
  	<![endif]-->

@@ -1,9 +1,12 @@
-.about{
+.regpage{
 	background:$darkblue;
 		html &,body &{
-			background:$lightblue;
+			background:transparent;
+		}
+		header{
 		}
 		footer{
+			background:$lightblue;
 		}
 		h1{
 			color:#fff;
@@ -19,9 +22,13 @@
 			color:$darkblue;
 		}
 }
+.about{
+	.marquee{
+		background:url('img/pan-1.jpg') no-repeat;
+	}
+}
 .marquee{
-	background:url('img/kauaicoast.jpg') no-repeat;
-	max-height:400px;
+	max-height:350px;
 	width:100%;
 	overflow:hidden;
 }
