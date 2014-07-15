@@ -72,6 +72,7 @@ img, object{
 	display:block;
 }
 .navbar{
+	z-index:5;
 	width:100%;
 	float:right;
 	.navbar-toggle{
@@ -192,21 +193,35 @@ header.regpage{
 	margin-bottom:20px;
 	height:5em;
 		&:before{
+			z-index:2;
 			content: '';
 			position:absolute;
 			top: 0;
 			right: 0;
-			height:9em;
+			height:10em;
 			width:100%;
 			background:$darkblue;
-			-webkit-transform: skew(0deg, -3deg);
-			-moz-transform: skew(0deg, -3deg);
-			-ms-transform: skew(0deg, -3deg);
-			-o-transform: skew(0deg, -3deg);
-			transform: skew(0deg, -3deg);
+			border-bottom: 8px solid $yellow;
+			-webkit-transform: skew(0deg, -2deg);
+			-moz-transform: skew(0deg, -2deg);
+			-ms-transform: skew(0deg, -2deg);
+			-o-transform: skew(0deg, -2deg);
+			transform: skew(0deg, -2deg);
 		}
 }
 
 .row{
 	padding-top:60px;
+}
+.regpage{
+	header{
+		z-index:3;
+	}
+	.content{
+		margin-top:350px;
+	}
+	.marquee{
+		position:absolute;
+		z-index:1;
+	}
 }

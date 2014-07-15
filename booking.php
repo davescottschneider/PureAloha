@@ -60,6 +60,7 @@ $section="booking";
         <h1>Book Your Kauai Excursion</h1>
      </div>
     <div class="clearfix container">
+        <div class="content">
             <h2>Join Us</h2>
             <p>We can't wait for you to board our dinghy! Our trips fill up fast so make sure and book ahead of time. We require a 10% deposit on date of booking. To book your trip, simply fill out the form on the right and we will get back to you within 24 hours to arrange your Kauai excursion! If you'd rather just give us a call, our number is (xxx) xxx-xxxx.</p>
         <div class="well">
@@ -67,7 +68,7 @@ $section="booking";
                 <p>Thanks for the email! I&rsquo;ll be in touch shortly!</p>
             <?php } else { ?>
 
-                <p>Give us your deets and we'll contact you to set up your Pure Aloha Kauai excursion.</p>
+                <p>Give us your info and we'll contact you to set up your Pure Aloha Kauai excursion.</p>
 
                 <form class="form-horizontal" method="post" action="booking.php">
                     <div class="form-group">
@@ -142,17 +143,14 @@ $section="booking";
                         <label for="address">Address</label>
                         <input type="text" name="address" id="address">
                         <p>Humans (and sea turtles): please leave this field blank.</p>
-                    </div>
-                    <div class="col-md-12">       
-                        <input type="submit" class="btn" value="Send">
-                    </div>
-
+                    </div>       
+                    <input type="submit" class="btn btn-lg" value="Send">
                 </form>
 
             <?php } ?>
 
         </div>
-
+        </div>
     </div>
 
 <?php include('inc/footer.php') ?>
