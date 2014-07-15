@@ -34,11 +34,13 @@
 	                <span class="icon-bar"></span>
 				</button>
 				<div id="logo">
-					<object data="img/pureAlohaLogo.svg" type="image/svg+xml" class="logo">
-						<!--[if lte IE 8 ]-->
-							<img src="img/Horizontal_Logo/Color_Logo/Transparent_Background_Files/Pure-Aloha-Ocean-Adventures_Final_72.png" alt="Pure Aloha Ocean Adventures">
-						<!--![endif]-->
-					</object>
+					<a href="/">
+						<object data="img/pureAlohaLogo.svg" type="image/svg+xml" class="logo">
+							<!--[if lte IE 8 ]-->
+								<img src="img/Horizontal_Logo/Color_Logo/Transparent_Background_Files/Pure-Aloha-Ocean-Adventures_Final_72.png" alt="Pure Aloha Ocean Adventures">
+							<!--![endif]-->
+						</object>
+					</a>
 				</div>
 			</div>
 		</div>

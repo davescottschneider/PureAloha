@@ -105,17 +105,14 @@ img, object{
 			}
 		}
 	}
-	.in{
+	.in, .collapsing{
 		width:100%;
-	}
-	.navbar-nav{
-
+		background:$darkblue;
 	}
 	@media screen and (max-width: 872px){
-		margin:2.5em 1em 2.5em 0;
+		margin:0em 1em 2.5em 0;
 	}
 	@media screen and (max-width: $break-med) {
-
 		margin:0;
 		border:0;
 		li{
@@ -192,22 +189,22 @@ header.regpage{
 	background:$darkblue;
 	margin-bottom:20px;
 	height:5em;
-		&:before{
-			z-index:2;
-			content: '';
-			position:absolute;
-			top: 0;
-			right: 0;
-			height:10em;
-			width:100%;
-			background:$darkblue;
-			border-bottom: 8px solid $yellow;
-			-webkit-transform: skew(0deg, -2deg);
-			-moz-transform: skew(0deg, -2deg);
-			-ms-transform: skew(0deg, -2deg);
-			-o-transform: skew(0deg, -2deg);
-			transform: skew(0deg, -2deg);
-		}
+	&:before{
+		z-index:2;
+		content: '';
+		position:absolute;
+		top: 0;
+		right: 0;
+		height:10em;
+		width:100%;
+		background:$darkblue;
+		border-bottom: 8px solid $yellow;
+		-webkit-transform: skew(0deg, -2deg);
+		-moz-transform: skew(0deg, -2deg);
+		-ms-transform: skew(0deg, -2deg);
+		-o-transform: skew(0deg, -2deg);
+		transform: skew(0deg, -2deg);
+	}
 }
 
 .row{
@@ -222,6 +219,11 @@ header.regpage{
 	}
 	h2{
 		padding-bottom:15px;
+	}
+	.navbar{
+		@media screen and (max-width: $break-med) {
+			
+		}
 	}
 	.content{
 		margin-top:350px;
