@@ -383,6 +383,22 @@ footer {
   background: url("img/pan-3.jpg") no-repeat center bottom;
 }
 
+/* line 11, ../sass/_booking.scss */
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+/* line 16, ../sass/_booking.scss */
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 /* line 15, ../sass/screen.scss */
 html, body {
   height: 100%;
