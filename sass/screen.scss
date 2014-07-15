@@ -214,6 +214,9 @@ header.regpage{
 	padding-top:60px;
 }
 .regpage{
+	footer{
+		border-top: 8px solid $yellow;
+	}
 	header{
 		z-index:3;
 	}

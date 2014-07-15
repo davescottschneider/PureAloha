@@ -658,14 +658,18 @@ header.regpage:before {
 }
 
 /* line 217, ../sass/screen.scss */
+.regpage footer {
+  border-top: 8px solid #ffcb05;
+}
+/* line 220, ../sass/screen.scss */
 .regpage header {
   z-index: 3;
 }
-/* line 220, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 .regpage .content {
   margin-top: 350px;
 }
-/* line 223, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .regpage .marquee {
   position: absolute;
   z-index: 1;
