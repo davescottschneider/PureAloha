@@ -10,10 +10,9 @@
 		}
 		h1{
 			color:#fff;
-			position:relative;
 			font-family: 'Olivier';
 			font-size:50px;
-			padding:5em;
+			padding:15% 15% 20% 15%;
 			display:block;
 			float:right;
 
@@ -24,7 +23,7 @@
 }
 .about{
 	.marquee{
-		background:url('img/pan-1.jpg') no-repeat;
+		background:url('img/pan-1.jpg') no-repeat center bottom;
 	}
 }
 .marquee{

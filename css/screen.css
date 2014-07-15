@@ -334,49 +334,53 @@ html .regpage, body .regpage {
 /* line 11, ../sass/_about.scss */
 .regpage h1 {
   color: #fff;
-  position: relative;
   font-family: 'Olivier';
   font-size: 50px;
-  padding: 5em;
+  padding: 15% 15% 20% 15%;
   display: block;
   float: right;
 }
-/* line 21, ../sass/_about.scss */
+/* line 20, ../sass/_about.scss */
 .regpage p {
   color: #29315f;
 }
 
-/* line 26, ../sass/_about.scss */
+/* line 25, ../sass/_about.scss */
 .about .marquee {
-  background: url("img/pan-1.jpg") no-repeat;
+  background: url("img/pan-1.jpg") no-repeat center bottom;
 }
 
-/* line 30, ../sass/_about.scss */
+/* line 29, ../sass/_about.scss */
 .marquee {
   max-height: 350px;
   width: 100%;
   overflow: hidden;
 }
 
-/* line 35, ../sass/_about.scss */
+/* line 34, ../sass/_about.scss */
 .whitebg {
   background: #fff;
   width: 100%;
 }
 
-/* line 39, ../sass/_about.scss */
+/* line 38, ../sass/_about.scss */
 footer {
   background: #29315f;
 }
 
-/* line 42, ../sass/_about.scss */
+/* line 41, ../sass/_about.scss */
 .aboutcontent {
   padding-bottom: 50px;
 }
 
 /* line 2, ../sass/_booking.scss */
 .booking .marquee {
-  background: url("img/pan-2.jpg") no-repeat;
+  background: url("img/pan-2.jpg") no-repeat center bottom;
+}
+
+/* line 7, ../sass/_booking.scss */
+.findus .marquee {
+  background: url("img/pan-3.jpg") no-repeat center bottom;
 }
 
 /* line 15, ../sass/screen.scss */
