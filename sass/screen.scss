@@ -220,6 +220,9 @@ header.regpage{
 	header{
 		z-index:3;
 	}
+	h2{
+		padding-bottom:15px;
+	}
 	.content{
 		margin-top:350px;
 	}
@@ -227,4 +230,7 @@ header.regpage{
 		position:absolute;
 		z-index:1;
 	}
+}
+.vspacer{
+	padding-bottom:100px;
 }

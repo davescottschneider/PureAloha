@@ -666,11 +666,20 @@ header.regpage:before {
   z-index: 3;
 }
 /* line 223, ../sass/screen.scss */
+.regpage h2 {
+  padding-bottom: 15px;
+}
+/* line 226, ../sass/screen.scss */
 .regpage .content {
   margin-top: 350px;
 }
-/* line 226, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .regpage .marquee {
   position: absolute;
   z-index: 1;
+}
+
+/* line 234, ../sass/screen.scss */
+.vspacer {
+  padding-bottom: 100px;
 }
